@@ -1,7 +1,7 @@
 # Learning to Remove
 This is code for Learning to Remove
 
-## Dependencies
+## Dependency
 Our code is based on python 3.7, pytorch 1.4, transformers 3.3
 
 ## Usage
