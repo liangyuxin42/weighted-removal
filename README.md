@@ -1,7 +1,15 @@
-# weighted-removal
-code for Learning to Remove
+# Learning to Remove
+This is code for Learning to Remove
 
-notebooks for training and evaluate weighted-removal algrithm
+## Dependencies
+Our code is based on python 3.7, pytorch 1.4, transformers 3.3
+
+## Usage
+run `python wr_train.py` to train WR algorithm in range D
+run `python test_results.py` to evaluate trained embedding in three tasks(word similarity, word analogy and textual similarity)
+
+## notebooks
+You can also train and evaluate in jupyter-notebooks:
 
 WR-train: weighted-removal training for d in range D
 
