@@ -39,14 +39,9 @@ def load_datasets(bert_tokenizer, embedding, word_simi_train_file, word_simi_tes
     word_simi_test['e2'] = e2_list
     print("word similarity testing dataset shape:",word_simi_test.shape)
 
-
-
     # anaolgy
     analogy_test = pd.read_csv(analogy_test_file)
-    print(analogy_test.shape)
-    print(analogy_test.head())
-
-    #过滤
+    
     word1_id = []
     word2_id = []
     word3_id = []
