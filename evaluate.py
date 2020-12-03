@@ -76,8 +76,6 @@ def evaluate(args):
     #load U
     U = np.load('trained-embedding//U_%s.npy' % emb_type )
     E = torch.tensor(E)
-    print(E.shape)
-    print(U.shape)
     word_simi_train, word_simi_test,analogy_test, text_simi_test = \
     loaddatasets.load_datasets(bert_tokenizer, embedding, word_simi_train_file, word_simi_test_file, analogy_test_file, text_simi_test_file)
 
