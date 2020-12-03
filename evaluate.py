@@ -60,7 +60,7 @@ def evaluate(args):
     analogy_test_file = config['analogy_test_file']
     text_simi_test_file = config['text_simi_test_file']
     # list ds for testing
-    D = [1]
+    D = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,30,35,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200]
 
     bert_model = BertModel.from_pretrained(model_name)
     bert_model.eval()
