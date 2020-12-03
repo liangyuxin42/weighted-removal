@@ -6,7 +6,8 @@ Our code is based on python 3.7, pytorch 1.4, transformers 3.3
 
 ## Usage
 run `python wr_train.py` to train WR algorithm in range D
-run `python test_results.py` to evaluate trained embedding in three tasks(word similarity, word analogy and textual similarity)
+
+run `python evaluate.py` to evaluate trained embedding in three tasks(word similarity, word analogy and textual similarity)
 
 ## Notebooks
 You can also train and evaluate in jupyter-notebooks:
