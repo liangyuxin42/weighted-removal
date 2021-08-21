@@ -1,5 +1,6 @@
 # Learning to Remove
-This is code for Learning to Remove
+This is code for Learning to Remove: Towards Isotropic Pre-trained BERT Embedding
+paper: https://arxiv.org/abs/2104.05274
 
 ## Dependency
 Our code is based on python 3.7, pytorch 1.4, transformers 3.3
